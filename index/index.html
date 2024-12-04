@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda De Whisky Label</title>
+    <link rel="stylesheet" href="../index/estilos/styles.css">
+</head>
+
+<body>
+    <div class="background"></div>
+
+    <header>
+        <div class="logo">
+            <h1>Tienda Online</h1>
+        </div>
+        <div class="cart">
+            <button onclick="viewCart()">Ver carrito (0)</button>
+        </div>
+
+
+        <img src="../index/imagenes/Logo.jpg" alt="Logo" class="logo">
+        <h1>Bienvenido a Mi Blue Label</h1>
+        <nav>
+            <ul>
+                <li> <a href="https://www.johnniewalker.com/es-bo/whisky-guide/the-johnnie-walker-story">Conoce Quien es el
+                    Creador</a>
+                </li>
+                        <li>
+                            <a href="https://licorhouse.com/collections/whiskys-licores-espirituosas-johnnie-walker">Donde Puedes
+                                Adquirir el Producto</a>
+                        </li>
+                    <li>
+                        <a href="https://www.ideal.es/sociedad/consumo/beneficios-salud-beber-20180306113542-nt.html">Beneficios
+                de Consumir Whisky</a>
+                </li>
+            </ul>
+                
+        </nav>
+        <h1>Bienvenido a mi Pagina Label</h1>
+        <p>Tu solución definitiva para disfrutar en familia</p>
+    </header>
+
+    <div class="main-content">
+        <h2>Comienza Ahora</h2>
+        <p>Descubre cómo nuestro producto puede cambiar tu vida. Con nuestra herramienta, podrás aumentar tu
+            productividad al máximo.</p>
+        <a href="https://www.johnniewalker.com/es-bo/our-whisky/core-range/johnnie-walker-blue-label"
+            class="cta-button">¡Únete ahora!</a>
+        <h1>Informacion Blue</h1>
+        <main>
+            <section class="products">
+                <div class="product" id="product1">
+                    <img src="https://enalimentos.lat/images/noticias/2022-11/walker-blue.jpg" alt="Producto 1">
+                    <h2>BLUE LABEL</h2>
+                    <p>$411.171</p>
+                    <button onclick="addToCart('Producto 1', 20)">Agregar al carrito</button>
+                </div>
+                <div class="product" id="product2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYqpAJvHoUkJYsERcInS0CepRM0rHXxZC5eQ&s"
+                        alt="RED LABEL">
+                    <h2>RED LABEL</h2>
+                    <p>$24.99</p>
+                    <button onclick="addToCart('Producto 2', 30)">Agregar al carrito</button>
+                </div>
+                <div class="product" id="product3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXN2QiaJpD-gggNp7NAMo1OZ009iQR7eiivw&s"
+                        alt="BLACK LABEL">
+                    <h2>BLACK LABEL</h2>
+                    <p>$62.876</p>
+                    <button onclick="addToCart('Producto 3', 30)">Agregar al carrito</button>
+                </div>
+                <div class="product" id="product4">
+                    <img src="https://winestore.com.bo/wp-content/uploads/2024/02/5000267134338.webp" alt="GREEN LABEL">
+                    <h2>GREEN LABEL</h2>
+                    <p>$63.00</p>
+                    <button onclick="addToCart('Producto 4', 30)">Agregar al carrito</button>
+                </div>
+                <div class="product" id="product5">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnWL6aNgkkwePdJoHN2aANaPAnYbN3ljPCyg&s"
+                        alt="GOLD LABEL">
+                    <h2>GOLD LABEL</h2>
+                    <p>$64.99</p>
+                    <button onclick="addToCart('Producto 5', 30)">Agregar al carrito</button>
+                </div>
+            </section>
+            <div id="page-container">
+                <div id="content-wrap">
+                  <!-- Contenido principal -->
+                </div>
+                <div id="footerA">
+                  <!-- Footer -->
+                
+              </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Tienda Online</p>
+
+            <div id="cartModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeCart()">&times;</span>
+                    <h2>Carrito de Compras</h2>
+                    <ul id="cartItems">
+
+                    </ul>
+                    <p id="totalPrice"></p>
+                    <button onclick="checkout()">Realizar compra</button>
+                </div>
+            </div>
+
+            <script src="../index/javascript/script.js"></script>
+
+            <div class-"logo">
+                <ul>
+                    <li><a href-"">
+                            <img src-"" alt-"Facebook"> Facebook</a></li>
+                    <li><a href-"">
+                            <img src-"" alt-"Instagram"> Instagram</a></li>
+                    <li><a href-"">
+                            <img src-"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwFi9C47XQalTb6PO2FPWStyMpqlR4cBJhDw&s" alt="X" ></a></1i>
+                </ul>
+            </div>
+            <div class-"logos">
+                <uI>
+                    <li><strong>Cel:</strong>2342344234</1i>
+                    <li><strong>Whatsapp</strong>4234234234</11>
+                        </ul>
+            </div>
+        </footer>
+</Body>
+
+</html>
